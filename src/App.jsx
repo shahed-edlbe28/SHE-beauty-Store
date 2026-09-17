@@ -78,7 +78,7 @@ function App() {
   )
 
  return (
-  <BrowserRouter>
+  <BrowserRouter basename="/SHE-beauty-Store">
     <Navbar storeName={storeName} cart={cart} />
 
     <Routes>
